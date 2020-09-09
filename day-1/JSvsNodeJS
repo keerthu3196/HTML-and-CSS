@@ -1,0 +1,16 @@
+JavaScript is a programming language, which runs in web browsers. Whereas Node.js is an interpreter or running environment for JavaScript which holds a lot of requiring libraries and all.It is a very strong language normally used for a web application on any verification or for any specific business logic which we need to append in the screen without page refreshing.Node.js also holds a lot of relative libraries which we normally use in javascript for general purpose programming language. It is actually a kind of environment or interpreter which can represent JavaScript or run any javascript program. It mainly helps us for executing some non-blocking operation like some operating system special information like certificate details or hardware details
+1. Type:
+      JavaScript is a programming language. It is running in any web browser with proper browser engine.
+      Node JS is an interpreter and environment for JS with some specific useful libraries which JS can use seperately
+2.Utility:
+      JS is mainly used for any client side activity for a web application, like possible attribute validation or refreshing the page in a specific interval or provide some dynamic changes in web pages without refreshing the web page.
+      Node JS is used for accessing  or performing any non-blocking operation of any operating-system, like creating or executing shell script or accessing the hardware specific information or running any backend job.
+3.Running Engine:
+      JavaScript running in any engine like Spider monkey (FireFox), JavaScript Core (Safari), V8 (Google Chrome). So JavaScript programming is very easy to write and put any running environment means proper browser.
+      Whereas Node JS only support V8 engine which googles chrome specific. But whether it support V8 engine, written JavaScript code can able to run in any environment. So there has no browser specific constraint on it.
+4. Programming Standard:
+      JavaScript is normally following Java Programming language standard. There may have some different way of writing code but at the same time, we can say it following Java Programming language standard. 
+      Whereas node JS is written in C++, and provide V8 engine base browser javascript running engine which helps us to run written javascript program in any browser environment.
+5.Advantage on OS:
+      For accessing any operating system specific non-blocking task JavaScript has some specific object but all of them are operating system specific. An example is ActiveX Control which is only running in Windows. 
+      But Node JS is given utility to run some operating system specific non-blocking tasks from any JavaScript programming. It doesn’t have any operating system specific constant. Node JS is very much familiar to create a specific binding with the file system, and also allowing developer for reading or sometimes write on disk.
