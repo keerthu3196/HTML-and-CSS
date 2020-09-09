@@ -1,0 +1,590 @@
+
+1.Document Summary
+<html> … </html>
+
+This tag is added at the very beginning and the very end of your HTML document. This is known as the root element and indicates that the page is written in HTML. All of the rest of the page markup will occur between these two tags, making the root element tag a parent tag for all other tags.
+
+<head> … </head>
+
+This tag allows you to include information about the page, such as title tags, metadata, fonts, and links to scripts and styles.
+
+<title> … </title>
+
+This tag allows you to specify a title for your page. This is important, as it not only shows up in the browser’s title bar and gives users a clearer idea of the topic of your page but also allows search engines to scan and index the page.
+
+<body> … </body>
+
+This tag encompasses all of the user-facing content on your page. 
+
+2. Document Information
+<base/>
+This tag is used to indicate your page’s base URL (example: “https://hackbrightacademy.com/”) and allows you to specify all relative links in your document, for cleaner internal linking throughout your site.
+
+<meta/>
+This tag allows you to include metadata for your page, such as author, publish date, important keywords, content descriptions, and other information.
+
+<link/>
+This tag makes it possible to link to scripts that are external to your webpage and is often used for including stylesheets.
+
+<style> … </style> 
+
+This tag includes document style information. It can be used as an alternative to an external style sheet. Unless otherwise specified, it will default to CSS.
+
+<script> … </script>
+
+This tag allows you to include scripting information as well as links to external scripts. You can also add code snippets to make the web page more dynamic.
+
+3. Document Structure
+<h1..h6> … </h1..h6> 
+
+This tag allows you to designate heading levels, with <h1> being the most important and having the largest font size, and <h6> being the least important and having the smallest font size. These elements help break up content on the page.
+
+<div> … </div>
+
+This tag allows you to divide the page content into individual blocks.
+
+<span> … </span>
+
+This tag allows you to include inline elements (icons, images, etc.) without affecting the rest of the page’s formatting/styling. 
+
+<p> … </p>
+
+This tag indicates that the text within is plain text. 
+
+<br/>
+
+This tag creates a line break within text, for when you need to drop down to a new line, such as when writing an address.
+
+<hr/>
+
+This tag also creates a line break in the text but additionally adds a horizontal line indicating the end of the previous section.
+
+4. Text Formatting
+<strong> … </strong>
+
+<b> … </b>
+
+Use either of these tags to bold text.
+
+<em> … </em>
+
+<i> … </i>
+
+Use either of these tags to italicize text.
+
+<tt> … </tt> 
+
+This tag is no longer supported in HTML5. It was used to create fixed width text.
+
+<strike> … </strike>
+
+This tag is used to create strikethrough text (words with a line through them). This tag is generally no longer supported. 
+
+<cite> … </cite>
+
+This tag allows you to cite references, such as when using quotes.
+
+<pre> … </pre>
+
+This tag is used to create preformatted, monospace text that keeps whitespace inside the element intact.
+
+<del> … </del> 
+
+This tag indicates that a section of text was previously deleted from the document.
+
+<ins> … </ins> 
+
+This tag indicates that a section of text has been inserted into the document.
+
+<blockquote> … </blockquote>
+
+This tag indicates a longer quote (usually longer than three lines), and is often used along with the <cite> tag.
+
+<q> … </q>
+
+This tag is used for shorter quotations (usually shorter than three lines), and is often used along with the <cite> tag.
+
+<abbr> … </abbr>
+
+This tag is used to indicate abbreviations, along with the full forms.
+
+<acronym> … </acronym>
+
+This tag is no longer supported in HTML5. It is used to indicate an acronym. 
+
+<address> … </address>
+
+This tag is used to indicate author contact details.
+
+<dfn> … </dfn>
+
+This tag is used to create an inline definition within the body of the text.
+
+<code> … </code> 
+
+This tag allows you to display code snippets within the body of the text.
+
+<sub> … </sub>
+
+This tag allows you to create a subscript (example: footnote1). 
+
+<sup> … </sup>
+
+This tag allows you to create a superscript (example: X3).
+
+<small> … </small>
+
+This tag allows you to create text of reduced size. In HTML5, it also may refer to invalid, irrelevant, or inaccurate information.
+
+<bdo> … </bdo> 
+
+This tag is used to identify which text should be read opposite from the text preceding it.
+
+5. Links
+<a href=””> … </a> 
+
+This tag indicates anchor text for a hyperlink.
+
+<a href=”mailto:”> … </a>
+
+This tag indicates a link used for sending emails.
+
+<a href=”tel://###-###”> … </a>
+
+This tag allows you to create clickable links to telephone numbers (indicated here by the # symbols).
+
+<a name=”name”> … </a>
+
+This tag allows for fast navigation around the webpage itself, taking users to specific document elements. 
+
+<a href=”#name”> … </a>
+
+This tag allows for fast navigation around the webpage itself, taking users to specific div elements.
+
+6. Images   
+<img />
+
+This tag allows you to display image files in the webpage. 
+
+src=”url”
+
+This allows you to designate the source URL of an image, indicating where the file is located (either locally or online).
+
+alt=”text”
+
+This allows you to specify fallback text used if the image doesn’t load. 
+
+height=””
+
+This specifies the height of the image, either in pixels or percentages.
+
+width=””
+
+This specifies the width of the image, either in pixels or percentages.
+
+align=””
+
+This indicates the relative alignment of the image, allowing it to shift in accordance with changes to other page elements. 
+
+border=””
+
+This allows you to set the border thickness of an image. It defaults to zero (0) if the tag is not included.
+
+<map> … </map>  
+
+This allows you to include an interactive image with areas that can be clicked on.
+
+<map name=””> … </map> 
+
+Use this to denote the name of the map associated between the image and the map. 
+
+<area />
+
+This is used to specify the image map area.
+
+shape=””
+
+Use this tag to denote the shape of the interactive map area. 
+
+coords=””
+
+Use this to designate the coordinates of the vital information of the shape, such as vertices for rectangles, or center/radius for circles.
+
+7. Lists
+<ol> … </ol>
+
+This tag allows you to designate ordered (numbered) lists.
+
+<ul> … </ul> 
+
+This tag allows you to create unordered (bulleted) lists. 
+
+<li> … </li> 
+
+This tag allows you to specify each list item to be bulleted or numbered.
+
+<dl> … </dl>
+
+This tag is reserved for list items definitions.
+
+<dt> … </dt> 
+
+This tag lets you set the definition of a single term inline with body content.
+
+<dd> … </dd>
+
+Use this tag to set the description for a defined term.
+
+8. Forms
+<form> … </form> 
+
+This element is the parent tag for an HTML form, spelling out how the form will operate.
+
+action=”url”
+
+Use this attribute to specify the URL where the data will be sent once the form has been submitted.
+
+method=””
+This specifies the method, either POST or GET, that will be used to submit the form. 
+
+enctype=””
+
+This attribute dictates how the form data is to be encoded (used only for POST method).
+
+autocomplete 
+
+This dictates whether the form will have autocomplete on or off.
+
+novalidate 
+
+Use this to indicate that the form will not be validated upon submission.
+
+accept-charsets 
+
+This determines the character coding upon form submission. 
+
+target
+
+This designates where to display the form response upon form submission (generally has one of the following values:  _blank, _self, _parent, _top.
+
+<fieldset> … </fieldset> 
+
+This tag identifies the group of all fields on the form.
+
+<label> … </label>
+
+This tag can be used to tell the user what to enter in each field. 
+
+<legend> … </legend>
+
+This tag acts as a caption for the <fieldset> element.
+
+<input /> 
+
+This tag is used to take input from the user, with input type being determined by a number of attributes.
+
+9. Input Type Attribute
+type=””
+
+Use this attribute to specify which type of input is being requested from the user.
+
+name=””
+
+This allows you to specify the name of the input field.
+
+value=””
+
+This attribute describes the value/input-field information.
+
+size=””
+
+This attribute specifies the <input> element width using number of characters.
+
+maxlength=””
+
+Use this attribute to designate the maximum number of input characters allowed. 
+
+required
+
+The attribute allows you to designate which input fields are required, meaning that the form cannot be submitted unless the field is filled.
+
+width=””
+
+This attribute specifies the <input> element width using pixel values.
+
+height=””
+
+This attribute specifies the <input> element height using pixel values.
+
+placeholder=””
+
+Use this attribute to provide an example of what the <input> element value might be. 
+
+pattern=””
+
+This attribute can be used to look for patterns in user text. The <input> element is checked against this expression to ensure that the user has entered the correct information.
+
+min=””
+
+This allows you to set the minimum value for the <input> element. 
+
+max=””
+
+This allows you to set the maximum value for the <input> element.
+
+autofocus
+
+This attribute forces focus on the <input> element once the webpage has finished loading.
+
+disabled
+
+This attribute disables the <input> element.
+
+<textarea> … </textarea>
+
+This tag can be used to designate areas where longer strings of input (multi-sentence) will be allowed.
+
+<select> … </select>
+
+This tag creates a list of options which the user can choose from.
+
+multiple
+
+This tag makes it possible for users to select multiple options at the same time. 
+
+10. Option Attributes
+value=””
+
+This attribute allows you to designate what text will be visible to the user for any specific option.
+
+selected
+
+This attribute determines which option is selected by default when the form loads.
+
+<button> … </button>
+
+Use this tag when creating a button for form submission.
+
+11. Tables
+<table> … </table> 
+
+This tag is used to designate a table in a webpage.
+
+<caption> … </caption>
+
+Use this tag to add a description for the table.
+
+<thead> … </thead>
+
+This tag contains the data/information that will go into the table.
+
+<tfoot> … </tfoot> 
+
+Use this tag to designate the footer of the table.
+
+<tr> … </tr>
+
+This tag contains the data/information to be included in a single row of the table.
+
+<th> … </th>
+
+This tag contains the data/information to be included in a single header item.
+
+<td> … </td>
+
+This tag contains the data/information to be included in a single cell of the table.
+
+<colgroup> … </colgroup>
+
+Use this tag to group one or more columns for formatting purposes.
+
+<col /> 
+
+This tag defines a single column of data/information within the table.
+
+12. Objects and iFrames 
+<object> … </object> 
+
+This tag is used to embed multimedia into a webpage. This can include video, audio, PDFs, or others.
+
+height=””
+
+This attribute specifies the <object> element height using pixel values.
+
+width=””
+
+This attribute specifies the <object> element width using pixel values.
+
+type=””
+
+Use this attribute to designate the type/format of the object’s contents.
+
+<iframe> … </iframe>
+
+This tag allows you to create an inline frame that lets you embed external multimedia content into an existing document. This frame floats within the webpage relative to other webpage items.
+
+13. iFrame Attributes
+name=””
+
+This attribute allows you to create a name for the <iframe>.
+
+src=””
+
+This attribute designates the source URL/path of the multimedia object held inside the <iframe>.
+
+srcdoc=””
+
+This attribute designates the HTML content to be displayed inside the <iframe>.
+
+height=””
+
+This attribute determines the height of the <iframe>.
+
+width=””
+
+This attribute determines the width of the <iframe>.
+
+<param />
+
+This tag allows you to further customize your iFrame content by appending extra parameters.
+
+<embed> … </embed>
+
+This tag is used to embed external objects into the iFrame, such as flash videos.
+
+14. Embed Attributes
+height=””
+
+This attribute determines the height of the embedded content you’re including.
+
+width=””
+
+This attribute determines the width of the embedded content.
+
+src=””
+
+This attribute designates the source URL/path of the external file you’re embedding.
+
+type=””
+
+Use this attribute to designate the media type of the embedded content.
+
+15. HTML Entities
+&#34; &quot;
+Quotation Marks – “
+
+&#38; &amp;
+Ampersand – &
+
+&#60; &lt;
+Less than sign – <
+
+&#62; &gt;
+Greater than sign – >
+
+&#160; &nbsp;
+Non-breaking space
+
+&#169; &copy;
+Copyright symbol – ©
+
+&#64; &Uuml;
+@ Symbol – @
+
+&#149; &ouml; 
+
+Small bullet – •
+
+&#153; &ucirc; 
+
+Trademark symbol – ™
+
+16. HTML5 Semantic Tags
+<header> … </header>
+
+This tag defines the header block for a document or for an individual section.
+
+<footer> … </footer>
+
+This tag identifies the footer block for the document or for an individual section.
+
+<main> … </main>
+
+Use this tag to describe the main content of a document.
+
+<article> … </article>
+
+This tag is used to identify an article inside a document.
+
+<aside> … </aside>
+
+This tag specifies content contained in a document sidebar.
+
+<section> … </section>
+
+Use this tag to create a section block in the document.
+
+<details> … </details>
+
+This tag allows you to include additional facts or information that the user can then view or hide.
+
+<dialog> … </dialog>
+
+Use this tag to create a dialog box or window.
+
+<figcaption> … </figcaption>
+
+Use the <figure> element caption to describe the figure.
+
+<figure> … </figure>
+
+This tag denotes an independent content block featuring diagrams, photos, illustrations, etc.
+
+<mark> … </mark>
+
+This tag displays a portion of highlighted text on the page.
+
+<nav> … </nav>
+
+This tag allows you to create navigation links within the document.
+
+<menuitem> … </menuitem>
+
+Use this tag to designate a specific menu item that a user can raise from a popup menu.
+
+<meter> … </meter>
+
+This tag describes the scalar measurement within a known array.
+
+<progress> … </progress>
+
+This tag displays the progress of a task, usually within a progress bar.
+
+<rp> … </rp>
+
+This tag displays text within browsers that do not support ruby annotations.
+
+<rt> … </rt>
+
+This tag displays East Asian typography character details.
+
+<ruby> … </ruby>
+
+Use this tag to describe a Ruby annotation for East Asian typography. 
+
+<summary> … </summary>
+
+This tag allows you to create a visible heading for a <details> element.
+
+<bdi> … </bdi>
+
+This tag allows you to format part of text in a different direction from other text.
+
+<time> … </time>
+
+Use this tag to identify the time and date.
+
+<wbr>
+
+This tag is used to create a line-break within the content.
+
