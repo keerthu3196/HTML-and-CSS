@@ -1,0 +1,346 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset1 Cambria Math;}{\f2\fnil\fcharset0 Cambria Math;}}
+{\*\generator Riched20 10.0.18362}{\*\mmathPr\mmathFont1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 function addFive(num) \{ \par
+    return num + 5;\par
+\}\par
+function getOpposite(num) \{\par
+    \par
+    if (Number.isInteger(num) && num !== 0)\par
+    \{\par
+        return -1 * num;\par
+    \}\par
+    \par
+    else\par
+    \{\par
+        if (num === 0)\{\par
+            return num;\par
+        \}\par
+        else\{\par
+            return -1;\par
+        \}\par
+        \par
+    \}\par
+\}\par
+\par
+function toSeconds(min) \{\par
+    if (min >=0 && min <= 60)\par
+    \{\par
+        return min * 60;\par
+    \}\par
+    else\par
+    \{\par
+        return 'Invalid data';\par
+    \}\par
+\}\par
+function toInteger(mystr) \{\par
+    if(Number(mystr))\par
+    \{\par
+        return +mystr;\par
+    \}\par
+    else\{\par
+        return 'Not a valid string of Number'\par
+    \}\par
+\}\par
+function nextNumber(myint) \{\par
+    return myint + 1;\par
+\}\par
+function getFirstElement(arr) \{\par
+    return arr[0];\par
+\}\par
+function hourToSeconds(arr) \{\par
+    var arrHrtoSec = [];\par
+    for(let i=0;i<arr.length;i++)\par
+    \{\par
+        if(arr[i]>=0 && arr[i]<=24)\par
+        \{\par
+            arrHrtoSec[i] = arr[i]*60*60\par
+        \}\par
+        else\par
+        \{\par
+            arrHrtoSec[i] = -1;\par
+        \}\par
+    \}\par
+    return arrHrtoSec;\par
+\}\par
+function findPerimeter(num1,num2) \{\par
+    return 2*(num1+num2)\par
+\}\par
+function lessThan100(num1,num2) \{\par
+    var sum = num1 + num2;\par
+    if(sum < 100)\par
+    \{\par
+        return true;\par
+    \}\par
+    else\par
+    \{\par
+        return false;\par
+    \}\par
+\}\par
+function remainder(num1,num2) \{\par
+    return num1 % num2;\par
+\}\par
+function CountAnimals(tur,horse,pigs) \{\par
+    return (tur *2)+(horse*4)+(pigs *4)\par
+\}\par
+function frames(num1,num2) \{\par
+    return ((num1 * 60) * num2);\par
+\}\par
+function divisibleByFive(num1) \{\par
+    if (num1 % 5 == 0)\par
+    \{\par
+        return true;\par
+    \}\par
+    else\par
+    \{\par
+        return false;\par
+    \}\par
+\}\par
+function isEven(num)\{\par
+ // your code here\par
+ if (Number.isInteger(num))\par
+ \{\par
+    if(num%2==0)\par
+    \{\par
+     return true\par
+    \}\par
+    else\par
+    \{\par
+        return false\par
+    \}\par
+  \}\par
+  else\{\par
+      return -1\par
+  \}\par
+\}\par
+function areBothOdd(num1, num2)\{\par
+ // your code here\par
+ if((num1%2 !==0) && (num2%2 !==0))\{\par
+     return true\par
+ \}\par
+ else\par
+ \{\par
+     false\par
+ \}\par
+\}\par
+function getFullName(firstName, lastName)\{\par
+ // your code here\par
+ var fullName = firstName + ' ' + lastName\par
+ return fullName\par
+\}\par
+function getLengthOfWord(word1)\{\par
+ // your code here\par
+ \par
+ var length = -1;\par
+\par
+ if(word1)\par
+ \{\par
+     if(!Number.isInteger(word1) && length >0)\par
+     \{\par
+         length = word1.length;\par
+     \}\par
+     \par
+ \}\par
+ return length;\par
+function getDistance(x1, y1, x2, y2) \{ \par
+\tab var xDiff = x1 - x2; \par
+\tab var yDiff = y1 - y2;\par
+\par
+\tab return Math.sqrt(xDiff * xDiff + yDiff * yDiff);\par
+\}\par
+function getNthElement(array,n)\{\par
+ // your code here\par
+ if(array.length >0)\par
+    return array[n];\par
+ else\par
+    return undefined\par
+\}\par
+function getLastElement(array)\{\par
+ // your code here\par
+ var res = -1;\par
+ if(array.length >0)\par
+    res = array[-1];\par
+ else\par
+    res = -1;\par
+ return res;\par
+\}\par
+function getProperty(obj, key) \{\par
+    return obj[key];\par
+\}\par
+function addProperty(obj, key) \{\par
+    obj[key] = true;\par
+\}\par
+function removeProperty(obj, key)\{\par
+    delete obj[key]\par
+\}\par
+var arr = [-5, 10, -3, 12, -9, 5, 90, 0, 1];\par
+var ar2 = function countPositivesSumNegatives(arr) \{\par
+    var countArr = [0,0]\par
+    for(let i=0;i<arr.length;i++)\par
+    \{\par
+        if(arr[i] < 0)\par
+        countArr[1] = countArr[1] + 1\par
+        else\par
+        countArr[0] = countArr[0] + 1\par
+    \}\par
+    return countArr;\par
+\}\par
+console.log(ar2(arr));\par
+\par
+function getPositives(ar)\par
+\{\par
+  var arr2return = [];\par
+  let count = 0;\par
+  for(let i=0;i<ar.length;i++)\par
+  \{\par
+      if(ar[i] > 0)\{\par
+          arr2return[count] = ar[i];\par
+          count = count + 1;\par
+      \}\par
+  \}\par
+  return arr2return;\par
+\}\par
+function powersOfTwo(n)\{\par
+    \par
+    var res = []\par
+    for(let i=0;i<=n;i++)\par
+    \{\par
+        res[i] = Math.pow(2,i);\par
+    \}\par
+  \par
+  return res;\par
+\}\par
+function findMax(ar)\par
+\{\par
+    \par
+    var res = ar[0];\par
+    for(let i=1;i<ar.length;i++)\par
+    \{\par
+        if(res < ar[i])\par
+        \{\par
+            res = ar[i];\par
+        \}\par
+    \}\par
+    return res\par
+\}\par
+function printPrimes(nPrimes)\par
+\{\par
+ var n = 0;\par
+ var i = 2;\par
+ \par
+ while(n < nPrimes)\par
+ \{\par
+ if (isPrime(i))\par
+ \{\par
+ console.log(n, ' \f1\u8594?\f0  ', i);\par
+ n++;\par
+ \}\par
+ \par
+ i++;\par
+ \}\par
+\}\par
+// Returns true if a number is prime\par
+function isPrime(n)\par
+\{\par
+ // your code here\par
+ let isPrime = true;\par
+ if (n === 1)\par
+ \{\par
+     console.log("1 is neither prime nor composite number.");\par
+     \par
+ \}\par
+ else\par
+ \{\par
+    \par
+    for (let i = 2; i < n; i++) \{\par
+        if (n % i == 0) \{\par
+            isPrime = false;\par
+            break;\par
+        \}\par
+    \}\par
+     \par
+ \}\par
+ return isPrime;\par
+\}\par
+\par
+function\f2  \f0 getPrimes\f2 (\f0 nPrimes\f2 , \f0 startAt\f2 )\f0\par
+\f2\{\f0\par
+\f2     \f0 let\f2  \f0 count\f2  = \f0 0\f2 ;\f0\par
+\f2     \f0 var\f2  \f0 arr2Return\f2  = [];\f0\par
+\f2     \f0 var\f2  \f0 n\f2  = \f0 startAt\f2 ;\f0\par
+\f2     \f0 while\f2 (\f0 count\f2  < \f0 nPrimes\f2 )\f0\par
+\f2     \{\f0\par
+\f2         \f0 if\f2 (\f0 isPrime\f2 (\f0 n\f2 ))\f0\par
+\f2         \{\f0\par
+\f2             \f0 arr2Return\f2 [\f0 count\f2 ] = \f0 n\par
+\f2             \f0 count\f2 ++;\f0\par
+\f2         \}\f0\par
+\f2         \f0 n\f2 ++;\f0\par
+\f2     \}\f0\par
+\f2     \f0 return\f2  \f0 arr2Return\f2 ;\f0\par
+\f2\}\f0\par
+\par
+function\f2  \f0 isPrime\f2 (\f0 n\f2 )\f0\par
+\f2\{\f0\par
+\f2  \f0 let\f2  \f0 isPrime\f2  = \f0 true\f2 ;\f0\par
+\f2  \f0 if\f2  (\f0 n\f2  === \f0 1\f2 )\f0\par
+\f2  \{\f0\par
+\f2      \f0 console\f2 .\f0 log\f2 (\f0 "1\f2  \f0 is\f2  \f0 neither\f2  \f0 prime\f2  \f0 nor\f2  \f0 composite\f2  \f0 number\f2 .\f0 "\f2 );\f0\par
+\f2      \f0\par
+\f2  \}\f0\par
+\f2  \f0 else\par
+\f2  \{\f0\par
+\f2     \f0\par
+\f2     \f0 for\f2  (\f0 let\f2  \f0 i\f2  = \f0 2\f2 ; \f0 i\f2  < \f0 n\f2 ; \f0 i\f2 ++) \{\f0\par
+\f2         \f0 if\f2  (\f0 n\f2  \f0 %\f2  \f0 i\f2  == \f0 0\f2 ) \{\f0\par
+\f2             \f0 isPrime\f2  = \f0 false\f2 ;\f0\par
+\f2             \f0 break\f2 ;\f0\par
+\f2         \}\f0\par
+\f2     \}\f0\par
+\f2      \f0\par
+\f2  \}\f0\par
+\f2  \f0 return\f2  \f0 isPrime\f2 ;\f0\par
+\f2\}\f0\par
+console\f2 .\f0 log\f2 (\f0 getPrimes\f2 (\f0 10\f2 , \f0 100\f2 ));\par
+\par
+function reverseString(s)\par
+\{\par
+    var resString = ''; \par
+    const length = s.length - 1; \par
+      \par
+    // Looping from the end \par
+    for(let i = length; i >= 0; i--) \{ \par
+        resString = resString + s[i];\par
+    \}\par
+    return resString;\par
+\}\par
+\par
+function mergeArrays(ar1, ar2)\par
+\{\par
+ var result = [];\par
+\par
+for(let el of ar1)\par
+ \{\par
+ result.push(el);\par
+ \}\par
+ for(let el of ar2)\par
+ \{\par
+ result.push(el);\par
+ \}\par
+ \par
+ \par
+ return result;\par
+\}\par
+\});\par
+\par
+function sumCSV(s)\par
+\{\par
+    var arr = s.split(',');\par
+    let sum = 0;\par
+    for(let i=0;i<arr.length;i++)\par
+    \{\par
+        sum += +arr[i];\par
+    \}\par
+    return sum;\par
+\}\f0\lang9\par
+}
+ 
