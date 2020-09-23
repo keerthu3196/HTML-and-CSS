@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
+        .style_centre{
+            text-align: center;
+        }
+        .style_justify{
+            text-align: justify;
+            max-width : 400px;
+        }
+        .left-col {
+          width: 50%;
+          min-height: 200px;
+          border-right: 1px solid black;
+          float: left;
+          box-sizing: border-box;
+        }
+
+        .right-col {
+          width: 50%;
+          min-height: 200px;
+          float: right;
+        }
+        .grad-1 {
+            background: hsla(31, 86%, 52%, 1);
+            background: linear-gradient(0deg, hsla(31, 86%, 52%, 0.9) 60%, hsla(31, 100%, 50%, 1) 60%, hsla(176, 68%, 12%, 1) 100%);
+            background: -moz-linear-gradient(0deg, hsla(31, 86%, 52%, 0.9) 60%, hsla(31, 100%, 50%, 1) 60%, hsla(176, 68%, 12%, 1) 100%);
+            background: -webkit-linear-gradient(0deg, hsla(31, 86%, 52%, 0.9) 60%, hsla(31, 100%, 50%, 1) 60%, hsla(176, 68%, 12%, 1) 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EE8719", endColorstr="#FF8400", GradientType=1 );
+        }
+        .progress-bar {
+          background-color: whiteSmoke;
+          border-radius: 2px;
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;
+
+          width: 250px;
+          height: 20px;
+
+          position: relative;
+          display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class='page'>
+      <div><img src="heading.png" width="1200" height="400"></div>
+      <div class='left-col'>
+        <ul>
+            <i class="fa fa-user fa-lg" aria-hidden="true"> Profile</i>
+        </ul>
+        <ul class="style_justify">Innovative optimized solution seeker. Excited to be at the deployment phase of my new career
+            as a web developer. I am ambitious, adventurous, assiduous, animated, and an alliteration advocate</ul>
+        <ul>
+            <i class="fa fa-tasks fa-lg" aria-hidden="true"> Skills</i>
+        </ul>
+          <ul class="style_centre"><b>Technical Skills</b></ul>
+          <ul>Javascript<progress max="100" value="80"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+              CSS<progress max="100" value="87"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+              HTML<progress max="100" value="70"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+              React<progress max="100" value="78"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+              Redux<progress max="100" value="92"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+              Mongo<progress max="100" value="90"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+              Deployment<progress max="100" value="89"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress></ul>
+          <ul class="style_centre"><b>Additional Skills</b></ul>
+            <ul>Project Management<progress max="100" value="80"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+                Recruitment<progress max="100" value="80"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+                Business Development<progress max="100" value="80"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+                Editing<progress max="100" value="80"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress><br>
+                Fundraising<progress max="100" value="80"><div class="progress-bar style-justify"><span class="grad-1"></span></div></progress></ul>
+         <ul><i class="fa fa-briefcase fa-lg" aria-hidden="true">Work Experience</i></ul>
+          <ul><b>Event Manager</b>      03/2014-02/2017<br>C3 Presents, Washington DC</ul>
+          <ul class="style_justify"><ul><li>Lead and execute all phases of event planning
+              and production spanning committee
+              recruitment, training, vendor relationships and
+              on-site facilitation</li>
+          <li>Brought new business to the organization through rentless networking and stewardship which helped
+              the company win the bid for the State Department Summit of the Middle East and, the companies largest civic event to
+              date, the United State of Women</li>
+          <li>
+              Exercise fiscal control over budget creation, tracking and reporting. Collaborate with employees at all organizational
+              levels to advance cohesive operations
+          </li></ul></ul>
+      </div>
+      <div class='right-col'>
+        <ul>
+            <i class="fa fa-briefcase fa-lg" aria-hidden="true">Work Experience</i>
+        </ul>
+        <ul>
+            <b>Community Relations Manager</b> 06/2011 - 01/2014<br>Gay & Lesbian Elder Housing, Los Angeles
+            <ul class="style_justify">
+            <li>Arranging presentations and pitch deck.</li>
+            <li>Designing a PR plan and establishing important focus points</li>
+            <li>Designing, creating and managing content across multiple communication platforms.</li>
+            <li>Building relationships with key media players.</li>
+            </ul>
+        </ul>
+        <ul>
+            <i class="fa fa-graduation-cap fa-lg" aria-hidden="true">Education</i>
+        </ul>
+        <ul class="style_justify">
+            <b>Engineering Immersion Program</b>  11/2018 - 06/2018<br>Thinkful, Chicago, IL<br>Project-focused intensive program with
+            emphasis on Mongo, Express, React and Javascript(MERN) technical stack.
+            <ul>
+            <li>Developed a full-stack web application, "RenewU", using React that allows users to explore various
+                aspects of meditation. User's progress is stored on a backend created using Node and MongoDB </li>
+            <li>
+                Developed a language learning app, "Foodie Phonetics" using spaced repetition and a linked list data structure.
+                React was used to create the front-end components while Node and Mongo were used to create a backend that stores
+                user data
+            </li>
+            <li>
+                Developed a concierge app "Pley", for individuals looking for curated suggestions when visiting a new place.
+                React was used to develop the front-end which includes readl-time chat, drag and drop variety of advanced
+                features. The backend, built using Node, Express, and Mongo, takes advantage of well-developed RESTful API,
+                Geospatial searching, and user authentication using JWT
+            </li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+</body>
+</html>
