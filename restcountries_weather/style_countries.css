@@ -1,0 +1,9 @@
+.main-image{
+    position: relative;
+    width:200px;
+    height:100px;
+    object-fit:cover;
+}
+.btn-primary,.card{
+    background: linear-gradient(to right, yellow, black) !important;
+}
